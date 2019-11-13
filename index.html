@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Demo share</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel='stylesheet' href='https://fastly.ink.sapo.pt/3.1.7/css/ink.css'>
-  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
-  
-<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="./style.css">
+
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
+
 <body>
 
 
@@ -19,159 +23,136 @@
     </button>
   </div>
 
+  <div class="mx-3 mb-10">
+    <div class="flex my-8">
+      <div class="w-1/2">
+        <h2 class="text-2xl leading-none">Your Results</h2>
+      </div>
+      <div class="w-1/2 text-right">
+        <p class="text-xs text-gray-500">DATE:
+          <span id="datetime"></span>
+        </p>
+      </div>
+    </div>
 
+    <div class="my-2 border-2 border-black">
+      <p class="px-4 pt-2 pb-4">1) We involve the people we’re designing for, every step of the way</p>
+      <div class="text-xs">
+        <div class="flex bg-gray-300">
+          <div class="w-full p-2">We’ve all been involved in the user research</div>
+          <div id="text1a" class="w-auto pr-5 py-2 font-bold">9</div>
+        </div>
+        <div class="flex bg-gray-200">
+          <div class="w-full p-2">Each affected user group has been included in the research</div>
+          <div id="text1b" class="w-auto pr-5 py-2 font-bold">2</div>
+        </div>
+        <div class="flex bg-gray-300">
+          <div class="w-full p-2">We’ve used a new or different research approach</div>
+          <div id="text1c" class="w-auto pr-5 py-2 font-bold">4</div>
+        </div>
+      </div>
+    </div>
 
+    <div class="my-2 border-2 border-black mt-5">
+      <p class="px-4 pt-2 pb-4">2) We create reusable initiatives with our partners, including systems, strategies and design libraries</p>
+      <div class="text-xs">
+        <div class="flex bg-gray-300">
+          <div class="w-full p-2">We’ve all been involved in the user research</div>
+          <div id="text2a" class="w-auto pr-5 py-2 font-bold">9</div>
+        </div>
+        <div class="flex bg-gray-200">
+          <div class="w-full p-2">Each affected user group has been included in the research</div>
+          <div id="text2b" class="w-auto pr-5 py-2 font-bold">2</div>
+        </div>
+        <div class="flex bg-gray-300">
+          <div class="w-full p-2">We’ve used a new or different research approach</div>
+          <div id="text2c" class="w-auto pr-5 py-2 font-bold">4</div>
+        </div>
+      </div>
+    </div>
 
-<div class="container mx-auto pt-10 pb-24">
-    <div class="flex mb-4">
-        <div class="w-1/2"><h1 class="text-5xl text-gray-500">Card Rating </h1></div>
-        <div class="w-1/2 text-right"><p class="text-xl text-gray-500">DATE: <span id="datetime"></span> </p></div>
+    <div class="my-2 border-2 border-black mt-5">
+      <p class="px-4 pt-2 pb-4">3) We create reusable initiatives with our partners, including systems, strategies and design libraries</p>
+      <div class="text-xs">
+        <div class="flex bg-gray-300">
+          <div class="w-full p-2">We’ve all been involved in the user research</div>
+          <div id="text3a" class="w-auto pr-5 py-2 font-bold">9</div>
+        </div>
+        <div class="flex bg-gray-200">
+          <div class="w-full p-2">Each affected user group has been included in the research</div>
+          <div id="text3b" class="w-auto pr-5 py-2 font-bold">2</div>
+        </div>
+        <div class="flex bg-gray-300">
+          <div class="w-full p-2">We share early and often, taking a human-centred and agile approach</div>
+          <div id="text3c" class="w-auto pr-5 py-2 font-bold">4</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="my-2 border-2 border-black mt-5">
+      <p class="px-4 pt-2 pb-4">4) We create reusable initiatives with our partners, including systems, strategies and design libraries</p>
+      <div class="text-xs">
+        <div class="flex bg-gray-300">
+          <div class="w-full p-2">We’ve all been involved in the user research</div>
+          <div id="text4a" class="w-auto pr-5 py-2 font-bold">9</div>
+        </div>
+        <div class="flex bg-gray-200">
+          <div class="w-full p-2">Each affected user group has been included in the research</div>
+          <div id="text4b" class="w-auto pr-5 py-2 font-bold">2</div>
+        </div>
+        <div class="flex bg-gray-300">
+          <div class="w-full p-2">We share early and often, taking a human-centred and agile approach</div>
+          <div id="text4c" class="w-auto pr-5 py-2 font-bold">4</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="my-2 border-2 border-black mt-5">
+        <p class="px-4 pt-2 pb-4">5) We design for everyone; we champion accessibility and inclusive design</p>
+        <div class="text-xs">
+          <div class="flex bg-gray-300">
+            <div class="w-full p-2">We’ve all been involved in the user research</div>
+            <div id="text5a" class="w-auto pr-5 py-2 font-bold">9</div>
+          </div>
+          <div class="flex bg-gray-200">
+            <div class="w-full p-2">Each affected user group has been included in the research</div>
+            <div id="text5b" class="w-auto pr-5 py-2 font-bold">2</div>
+          </div>
+          <div class="flex bg-gray-300">
+            <div class="w-full p-2">We share early and often, taking a human-centred and agile approach</div>
+            <div id="text5c" class="w-auto pr-5 py-2 font-bold">4</div>
+          </div>
+        </div>
       </div>
 
-    <table class="table-auto w-full text-left text-sm">
-        <thead>
-          <tr>
-            <th class="px-4 py-2">1) We involve the people we’re designing for, every step of the way</th>
-            <th class="px-4 py-2 w-1/5">Rate</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="border px-4 py-2">We’ve all been involved in the user research</td>
-            <td id="text1a" class="border px-4 py-2">-</td>
-          </tr>
-          <tr class="bg-gray-100">
-            <td class="border px-4 py-2">Each affected user group has been included in the research</td>
-            <td id="text1b" class="border px-4 py-2">-</td>
-          </tr>
-          <tr>
-            <td class="border px-4 py-2">We’ve used a new or different research approach</td>
-            <td id="text1c" class="border px-4 py-2">-</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <table class="table-auto w-full text-left text-sm mt-10">
-          <thead>
-            <tr>
-              <th class="px-4 py-2">2) We create reusable initiatives with our partners, including systems, strategies and design libraries</th>
-              <th class="px-4 py-2 w-1/5">Rate</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="border px-4 py-2">We’ve all been involved in the user research</td>
-              <td id="text2a" class="border px-4 py-2">-</td>
-            </tr>
-            <tr class="bg-gray-100">
-              <td class="border px-4 py-2">Each affected user group has been included in the research</td>
-              <td id="text2b" class="border px-4 py-2">-</td>
-            </tr>
-            <tr>
-              <td class="border px-4 py-2">We’ve used a new or different research approach</td>
-              <td id="text2c" class="border px-4 py-2">-</td>
-            </tr>
-          </tbody>
-        </table>
-
-        <table class="table-auto w-full text-left text-sm mt-10">
-            <thead>
-              <tr>
-                <th class="px-4 py-2">3) We create reusable initiatives with our partners, including systems, strategies and design libraries</th>
-                <th class="px-4 py-2 w-1/5">Rate</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="border px-4 py-2">We’ve all been involved in the user research</td>
-                <td id="text3a" class="border px-4 py-2">-</td>
-              </tr>
-              <tr class="bg-gray-100">
-                <td class="border px-4 py-2">Each affected user group has been included in the research</td>
-                <td id="text3b" class="border px-4 py-2">-</td>
-              </tr>
-              <tr>
-                <td class="border px-4 py-2">We’ve used a new or different research approach</td>
-                <td id="text3c" class="border px-4 py-2">-</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <table class="table-auto w-full text-left text-sm mt-10">
-              <thead>
-                <tr>
-                  <th class="px-4 py-2">4) xxx</th>
-                  <th class="px-4 py-2 w-1/5">Rate</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td class="border px-4 py-2">We’ve all been involved in the user research</td>
-                  <td id="text4a" class="border px-4 py-2">-</td>
-                </tr>
-                <tr class="bg-gray-100">
-                  <td class="border px-4 py-2">Each affected user group has been included in the research</td>
-                  <td id="text4b" class="border px-4 py-2">-</td>
-                </tr>
-                <tr>
-                  <td class="border px-4 py-2">We’ve used a new or different research approach</td>
-                  <td id="text4c" class="border px-4 py-2">-</td>
-                </tr>
-              </tbody>
-            </table>
-
-            <table class="table-auto w-full text-left text-sm mt-10">
-                <thead>
-                  <tr>
-                    <th class="px-4 py-2">5) xxx</th>
-                    <th class="px-4 py-2 w-1/5">Rate</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="border px-4 py-2">We’ve all been involved in the user research</td>
-                    <td id="text5a" class="border px-4 py-2">-</td>
-                  </tr>
-                  <tr class="bg-gray-100">
-                    <td class="border px-4 py-2">Each affected user group has been included in the research</td>
-                    <td id="text5b" class="border px-4 py-2">-</td>
-                  </tr>
-                  <tr>
-                    <td class="border px-4 py-2">We’ve used a new or different research approach</td>
-                    <td id="text5c" class="border px-4 py-2">-</td>
-                  </tr>
-                </tbody>
-              </table>
+      <div class="my-2 border-2 border-black mt-5">
+          <p class="px-4 pt-2 pb-4">6) We measure our performance on the global impact we make, not on cost or time</p>
+          <div class="text-xs">
+            <div class="flex bg-gray-300">
+              <div class="w-full p-2">We’ve all been involved in the user research</div>
+              <div id="text6a" class="w-auto pr-5 py-2 font-bold">9</div>
+            </div>
+            <div class="flex bg-gray-200">
+              <div class="w-full p-2">Each affected user group has been included in the research</div>
+              <div id="text6b" class="w-auto pr-5 py-2 font-bold">2</div>
+            </div>
+            <div class="flex bg-gray-300">
+              <div class="w-full p-2">We share early and often, taking a human-centred and agile approach</div>
+              <div id="text6c" class="w-auto pr-5 py-2 font-bold">4</div>
+            </div>
+          </div>
+        </div>
+  </div>
 
 
-              <table class="table-auto w-full text-left text-sm mt-10">
-                  <thead>
-                    <tr>
-                      <th class="px-4 py-2">6) xxx</th>
-                      <th class="px-4 py-2 w-1/5">Rate</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td class="border px-4 py-2">We’ve all been involved in the user research</td>
-                      <td id="text6a" class="border px-4 py-2">-</td>
-                    </tr>
-                    <tr class="bg-gray-100">
-                      <td class="border px-4 py-2">Each affected user group has been included in the research</td>
-                      <td id="text6b" class="border px-4 py-2">-</td>
-                    </tr>
-                    <tr>
-                      <td class="border px-4 py-2">We’ve used a new or different research approach</td>
-                      <td id="text6c" class="border px-4 py-2">-</td>
-                    </tr>
-                  </tbody>
-                </table>
-</div>
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-<script  src="https://cdn.jsdelivr.net/clipboard.js/1.5.10/clipboard.min.js"></script>
 
-<script  src="./script.js"></script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+  <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+  <script src="./script.js"></script>
 
 </body>
+
 </html>
