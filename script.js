@@ -66,6 +66,8 @@ var dt = url.searchParams.get("timestamp");
 document.getElementById("datetime").innerHTML = dt;
 
 
+$('.rate-text:empty').closest('.rate-box').remove();
+
 
 // Copy Link
 var clipboard = new Clipboard('.btn-copy', {
@@ -84,7 +86,7 @@ if (navigator.vendor.indexOf("Apple")==0 && /\sSafari\//.test(navigator.userAgen
 var msg = window.prompt("Copy this link", location.href);
 
 });
-  }
+}
 
  
   
