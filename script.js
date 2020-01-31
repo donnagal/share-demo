@@ -69,6 +69,12 @@ document.getElementById("datetime").innerHTML = dt;
 $('.rate-text:empty').closest('.rate-box').remove();
 
 
+//Email current page
+function emailCurrentPage(){
+    window.location.href="mailto:?subject="+document.title+"&body="+escape(window.location.href);
+}
+
+
 // Copy Link
 var clipboard = new Clipboard('.btn-copy', {
     text: function() {
