@@ -14,139 +14,155 @@
   
   <style>
     .bg-primary {background-color: #F04D23;}
+    .border-primary {border-color: #F04D23;}
+    .text-primary {color: #F04D23;}
+    hr {
+      border-color: #F04D23;
+      margin: 15px 0 10px 0;
+      opacity: .3;
+    }
+
   </style>
 </head>
 
 <body>
 
-    <header class="bg-primary pb-4">
-      <a href="http://cards.uat.isobargood.com/principle">
-        <div class="flex justify-around pt-5 mb-8">
-          <img src="img/logo.svg" alt="isobar good logo.">
-        </div>
-      </a>
-      <h1 class="text-4xl mb-10 mx-20 text-center text-white leading-none font-light">
-        Principle cards
-      </h1>
-    </header>
+  <header class="bg-primary pb-4">
+    <a href="http://cards.uat.isobargood.com/principle">
+      <div class="flex justify-around pt-5 mb-8">
+        <img src="img/logo.svg" alt="isobar good logo.">
+      </div>
+    </a>
+    <h1 class="text-4xl mb-10 mx-20 text-center text-white leading-none font-light">
+      Principle cards
+    </h1>
+  </header>
 
-
+  <div class="px-5">
   <div class="mx-3 mb-10">
     <div class="flex my-8">
-      <div class="w-1/2">
-        <h2 class="text-2xl leading-none">Your Results</h2>
-      </div>
-      <div class="w-1/2 text-right">
-        <p class="text-xs text-gray-500">DATE:
-          <span id="datetime"></span>
-        </p>
+      <div class="w-full">
+        <h2 class="text-2xl leading-none">Session date: <span class="text-primary" id="datetime"></span></h2>
+        <div class="px-4"><hr /></div>
       </div>
     </div>
 
-    <div class="rate-box my-2 border-2 border-black">
+    <div class="rate-box my-2 border-4 border-primary">
       <p class="px-4 pt-2 pb-4 heading">1) We involve the people we’re designing for, every step of the way</p>
       <div class="text-xs">
-        <div class="flex bg-gray-300">
-          <div class="w-full p-2">We’ve all been involved in the user research</div>
-          <div id="text1a" class="w-auto pr-5 py-2 font-bold rate-text">0</div>
+        <div class="flex">
+          <div class="w-full py-2 pl-4 pr-16">We’ve all been involved in the user research</div>
+          <div id="text1a" class="w-auto pr-5 py-2 pr-8 font-bold rate-text text-lg">0</div>
         </div>
-        <div class="flex bg-gray-200">
-          <div class="w-full p-2">Each affected user group has been included in the research</div>
-          <div id="text1b" class="w-auto pr-5 py-2 font-bold rate-text">0</div>
+        <div class="px-4"><hr /></div>
+        <div class="flex">
+          <div class="w-full py-2 pl-4 pr-16">Each affected user group has been included in the research</div>
+          <div id="text1b" class="w-auto pr-5 py-2 pr-8 font-bold rate-text text-lg">0</div>
         </div>
-        <div class="flex bg-gray-300">
-          <div class="w-full p-2">We’ve used a new or different research approach</div>
-          <div id="text1c" class="w-auto pr-5 py-2 font-bold rate-text">0</div>
+        <div class="px-4"><hr /></div>
+        <div class="flex">
+          <div class="w-full py-2 pl-4 pr-16">We’ve used a new or different research approach</div>
+          <div id="text1c" class="w-auto pr-5 py-2 pr-8 font-bold rate-text text-lg">0</div>
         </div>
       </div>
     </div>
 
-    <div class="rate-box my-2 border-2 border-black mt-5">
+    <div class="rate-box my-2 border-4 border-primary mt-5">
       <p class="px-4 pt-2 pb-4 heading">2) We create reusable initiatives with our partners, including systems, strategies and design libraries</p>
       <div class="text-xs">
-        <div class="flex bg-gray-300">
-          <div class="w-full p-2">We’ve all been involved in the user research</div>
-          <div id="text2a" class="w-auto pr-5 py-2 font-bold rate-text">0</div>
+        <div class="flex">
+          <div class="w-full py-2 pl-4 pr-16">We’ve all been involved in the user research</div>
+          <div id="text2a" class="w-auto pr-5 py-2 pr-8 font-bold rate-text text-lg">0</div>
         </div>
-        <div class="flex bg-gray-200">
-          <div class="w-full p-2">Each affected user group has been included in the research</div>
-          <div id="text2b" class="w-auto pr-5 py-2 font-bold rate-text">0</div>
+        <div class="px-4"><hr /></div>
+        <div class="flex">
+          <div class="w-full py-2 pl-4 pr-16">Each affected user group has been included in the research</div>
+          <div id="text2b" class="w-auto pr-5 py-2 pr-8 font-bold rate-text text-lg">0</div>
         </div>
-        <div class="flex bg-gray-300">
-          <div class="w-full p-2">We’ve used a new or different research approach</div>
-          <div id="text2c" class="w-auto pr-5 py-2 font-bold rate-text">0</div>
+        <div class="px-4"><hr /></div>
+        <div class="flex">
+          <div class="w-full py-2 pl-4 pr-16">We’ve used a new or different research approach</div>
+          <div id="text2c" class="w-auto pr-5 py-2 pr-8 font-bold rate-text text-lg">0</div>
         </div>
       </div>
     </div>
 
-    <div class="rate-box my-2 border-2 border-black mt-5">
+    <div class="rate-box my-2 border-4 border-primary mt-5">
       <p class="px-4 pt-2 pb-4 heading">3) We create reusable initiatives with our partners, including systems, strategies and design libraries</p>
       <div class="text-xs">
-        <div class="flex bg-gray-300">
-          <div class="w-full p-2">We’ve all been involved in the user research</div>
-          <div id="text3a" class="w-auto pr-5 py-2 font-bold rate-text">0</div>
+        <div class="flex">
+          <div class="w-full py-2 pl-4 pr-16">We’ve all been involved in the user research</div>
+          <div id="text3a" class="w-auto pr-5 py-2 pr-8 font-bold rate-text text-lg">0</div>
         </div>
-        <div class="flex bg-gray-200">
-          <div class="w-full p-2">Each affected user group has been included in the research</div>
-          <div id="text3b" class="w-auto pr-5 py-2 font-bold rate-text">0</div>
+        <div class="px-4"><hr /></div>
+        <div class="flex">
+          <div class="w-full py-2 pl-4 pr-16">Each affected user group has been included in the research</div>
+          <div id="text3b" class="w-auto pr-5 py-2 pr-8 font-bold rate-text text-lg">0</div>
         </div>
-        <div class="flex bg-gray-300">
-          <div class="w-full p-2">We share early and often, taking a human-centred and agile approach</div>
-          <div id="text3c" class="w-auto pr-5 py-2 font-bold rate-text">0</div>
+        <div class="px-4"><hr /></div>
+        <div class="flex">
+          <div class="w-full py-2 pl-4 pr-16">We share early and often, taking a human-centred and agile approach</div>
+          <div id="text3c" class="w-auto pr-5 py-2 pr-8 font-bold rate-text text-lg">0</div>
         </div>
       </div>
     </div>
 
-    <div class="rate-box my-2 border-2 border-black mt-5">
+    <div class="rate-box my-2 border-4 border-primary mt-5">
       <p class="px-4 pt-2 pb-4 heading">4) We create reusable initiatives with our partners, including systems, strategies and design libraries</p>
       <div class="text-xs">
-        <div class="flex bg-gray-300">
-          <div class="w-full p-2">We’ve all been involved in the user research</div>
-          <div id="text4a" class="w-auto pr-5 py-2 font-bold rate-text">0</div>
+        <div class="flex">
+          <div class="w-full py-2 pl-4 pr-16">We’ve all been involved in the user research</div>
+          <div id="text4a" class="w-auto pr-5 py-2 pr-8 font-bold rate-text text-lg">0</div>
         </div>
-        <div class="flex bg-gray-200">
-          <div class="w-full p-2">Each affected user group has been included in the research</div>
-          <div id="text4b" class="w-auto pr-5 py-2 font-bold rate-text">0</div>
+        <div class="px-4"><hr /></div>
+        <div class="flex">
+          <div class="w-full py-2 pl-4 pr-16">Each affected user group has been included in the research</div>
+          <div id="text4b" class="w-auto pr-5 py-2 pr-8 font-bold rate-text text-lg">0</div>
         </div>
-        <div class="flex bg-gray-300">
-          <div class="w-full p-2">We share early and often, taking a human-centred and agile approach</div>
-          <div id="text4c" class="w-auto pr-5 py-2 font-bold rate-text">0</div>
+        <div class="px-4"><hr /></div>
+        <div class="flex">
+          <div class="w-full py-2 pl-4 pr-16">We share early and often, taking a human-centred and agile approach</div>
+          <div id="text4c" class="w-auto pr-5 py-2 pr-8 font-bold rate-text text-lg">0</div>
         </div>
       </div>
     </div>
 
-    <div class="rate-box my-2 border-2 border-black mt-5">
+    <div class="rate-box my-2 border-4 border-primary mt-5">
         <p class="px-4 pt-2 pb-4 heading">5) We design for everyone; we champion accessibility and inclusive design</p>
         <div class="text-xs">
-          <div class="flex bg-gray-300">
-            <div class="w-full p-2">We’ve all been involved in the user research</div>
-            <div id="text5a" class="w-auto pr-5 py-2 font-bold rate-text">0</div>
+          <div class="flex">
+            <div class="w-full py-2 pl-4 pr-16">We’ve all been involved in the user research</div>
+            <div id="text5a" class="w-auto pr-5 py-2 pr-8 font-bold rate-text text-lg">0</div>
           </div>
-          <div class="flex bg-gray-200">
-            <div class="w-full p-2">Each affected user group has been included in the research</div>
-            <div id="text5b" class="w-auto pr-5 py-2 font-bold rate-text">0</div>
+          <div class="px-4"><hr /></div>
+          <div class="flex">
+            <div class="w-full py-2 pl-4 pr-16">Each affected user group has been included in the research</div>
+            <div id="text5b" class="w-auto pr-5 py-2 pr-8 font-bold rate-text text-lg">0</div>
           </div>
-          <div class="flex bg-gray-300">
-            <div class="w-full p-2">We share early and often, taking a human-centred and agile approach</div>
-            <div id="text5c" class="w-auto pr-5 py-2 font-bold rate-text">0</div>
+          <div class="px-4"><hr /></div>
+          <div class="flex">
+            <div class="w-full py-2 pl-4 pr-16">We share early and often, taking a human-centred and agile approach</div>
+            <div id="text5c" class="w-auto pr-5 py-2 pr-8 font-bold rate-text text-lg">0</div>
           </div>
         </div>
       </div>
 
-      <div class="rate-box my-2 border-2 border-black mt-5">
+      <div class="rate-box my-2 border-4 border-primary mt-5">
           <p class="px-4 pt-2 pb-4 heading">6) We measure our performance on the global impact we make, not on cost or time</p>
           <div class="text-xs">
-            <div class="flex bg-gray-300">
-              <div class="w-full p-2">We’ve all been involved in the user research</div>
-              <div id="text6a" class="w-auto pr-5 py-2 font-bold rate-text">0</div>
+            <div class="flex">
+              <div class="w-full py-2 pl-4 pr-16">We’ve all been involved in the user research</div>
+              <div id="text6a" class="w-auto pr-5 py-2 pr-8 font-bold rate-text text-lg">0</div>
             </div>
-            <div class="flex bg-gray-200">
-              <div class="w-full p-2">Each affected user group has been included in the research</div>
-              <div id="text6b" class="w-auto pr-5 py-2 font-bold rate-text">0</div>
+            <div class="px-4"><hr /></div>
+            <div class="flex">
+              <div class="w-full py-2 pl-4 pr-16">Each affected user group has been included in the research</div>
+              <div id="text6b" class="w-auto pr-5 py-2 pr-8 font-bold rate-text text-lg">0</div>
             </div>
-            <div class="flex bg-gray-300">
-              <div class="w-full p-2">We share early and often, taking a human-centred and agile approach</div>
-              <div id="text6c" class="w-auto pr-5 py-2 font-bold rate-text">0</div>
+            <div class="px-4"><hr /></div>
+            <div class="flex">
+              <div class="w-full py-2 pl-4 pr-16">We share early and often, taking a human-centred and agile approach</div>
+              <div id="text6c" class="w-auto pr-5 py-2 pr-8 font-bold rate-text text-lg">0</div>
             </div>
           </div>
         </div>
@@ -154,7 +170,16 @@
 
 
 
-  <div class="w-full text-center sticky bottom-0 bg-white">
+
+  </div>
+
+
+  <div class="w-full text-center sticky bottom-0">
+    <input type="submit" class="mb-5 bg-primary text-white py-3 px-16 rounded-full share-btn" value="Share">
+  </div>
+
+  <div class="w-full text-center sticky bottom-0 bg-white share-links hidden">
+    <div class="w-full bg-white p-2">CLOSE</div>
     <div class="flex mb-1">
         <a class="w-full bg-green-700 hover:bg-gray-900 text-white py-3 px-4 rounded" 
         href="javascript:emailCurrentPage()">Share in email

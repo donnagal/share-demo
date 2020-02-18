@@ -74,6 +74,9 @@ function emailCurrentPage(){
     window.location.href="mailto:?subject="+document.title+"&body="+escape(window.location.href);
 }
 
+$(".share-btn").click(function(){
+    $(".share-links").toggle();
+  });
 
 // Copy Link
 var clipboard = new Clipboard('.btn-copy', {
